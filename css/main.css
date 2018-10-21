@@ -338,12 +338,19 @@ footer img{
 	#location-tab{
 		background-color: #c8e24a;
 		color: #000;
+		transition: background-color 1s linear, color 1s linear;
 	}
 	
 	#order-tab{
 		background-color: #ea7849;
 		color: #fcfefa;
 		margin-left: 2px;
+		transition: background-color 1s linear, color 1s linear;
+	}
+	
+	.change-color{
+		background-color: #323232;
+		color: #fff;
 	}
 	
 	.site-nav a:hover,
