@@ -346,16 +346,6 @@ footer img{
 		margin-left: 2px;
 	}
 	
-	#location-tab:hover{
-		background-color: #000;
-		color: #c8e24a;
-	}
-	
-	#order-tab:hover{
-		background-color: #fff;
-		color: #ea7849;
-	}
-	
 	.site-nav a:hover,
 	.site-nav a:focus {
 		background: transparent;
