@@ -68,7 +68,7 @@ p{
   background: #272727;
   clip-path: circle(0px at top right);
   transition: clip-path ease-in-out 700ms;
-   display: none; 
+   display: none;
 }
 
 .site-nav--open {
@@ -360,6 +360,27 @@ footer img{
 	.site-nav--icon {
 		display: none;
 	}
+	
+	.hide-loc{
+		display: none;
+		position: absolute;
+		background-color:  #c8e24a;
+		text-align: center;
+		color: #000;
+		transition: height 1s;
+		height: 0;
+		width: 0;
+		padding: 10px;
+
+	}
+	
+	.show-loc{
+		display: block;
+		transition: height 1s;
+		width: 140px;
+		height: 140px;
+	}
+
 
 }
 
