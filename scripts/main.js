@@ -4,3 +4,7 @@ var tab = document.getElementsByTagName('a');
 function changeColor(){
 	
 };
+
+for (i=0; i < tab.length; i++){
+	
+}
