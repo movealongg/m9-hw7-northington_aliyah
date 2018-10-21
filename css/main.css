@@ -98,11 +98,13 @@ p{
   text-decoration: none;
 }
 
+/*
 .site-nav a:hover,
 .site-nav a:focus {
   background: #c8e24a;
   color: #272727;
 }
+*/
 
 .menu-toggle {
   padding: 1rem 0.2rem;
@@ -180,6 +182,7 @@ header{
 	min-width: 70px;
 	margin: 0 5px;
 	font-size: 0.7rem;
+	z-index: 998;
 }
 
 .header-buttons:hover{
@@ -314,6 +317,7 @@ footer img{
 		justify-content: flex-end;
 		font-size: 0.9rem;
 		margin-right: 50px;
+		z-index: 999;
 	}
   
 	.site-nav li {
@@ -333,30 +337,24 @@ footer img{
 		text-align: center;
 		text-decoration: none;
 		margin-top: -200px;
+		color: #fcfefa;
 }
 	
-	#location-tab{
+	.location-tab{
 		background-color: #c8e24a;
-		color: #000;
-		transition: background-color 1s linear, color 1s linear;
+		color: #000 !important;
+		transition: background-color 1s, color 1s;
 	}
 	
-	#order-tab{
+	.order-tab{
 		background-color: #ea7849;
-		color: #fcfefa;
 		margin-left: 2px;
-		transition: background-color 1s linear, color 1s linear;
+		transition: background-color 1s, color 1s;
 	}
 	
 	.change-color{
 		background-color: #323232;
-		color: #fff;
-	}
-	
-	.site-nav a:hover,
-	.site-nav a:focus {
-		background: transparent;
-		color: #c8e24a;
+		color: #fff !important;
 	}
   
 	.site-nav--icon {
