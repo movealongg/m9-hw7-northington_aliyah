@@ -226,6 +226,15 @@ header{
 	font-size: 0.75rem;
 }
 
+figure{
+	transition: opacity 2s;
+}
+
+.change-opacity{
+	opacity: 0.7;
+	transition: opacity 2s;
+}
+
 main{
 	padding: 20px;
 	display: flex;
