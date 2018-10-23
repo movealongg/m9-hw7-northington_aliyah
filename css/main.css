@@ -373,23 +373,24 @@ footer img{
 	.hide-loc{
 		display: none;
 		position: absolute;
-		background-color:  #c8e24a;
+		background-color: #ea7849;
 		text-align: center;
-		color: #000;
 		transition: height 1s;
 		height: 0;
 		width: 0;
 		padding: 10px;
-
+		border-radius: 5px;
+		text-transform: uppercase;
 	}
 	
 	.show-loc{
 		display: block;
 		transition: height 1s;
-		width: 140px;
-		height: 140px;
+		width: 141px;
+		height: 80px;
+		right: 127px;
+		top: 49px;
 	}
-
 
 }
 
